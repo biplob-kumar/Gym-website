@@ -89,6 +89,9 @@ h1,h2,h3,h4,h5,h6,a,span{
 }
 /*  hero css end  */
 /*  why-chose us css start */
+.why-scgose-sectio {
+    padding: 100px 0;
+}
 .why-scgose-sectio{
     background-color: var(--black-color);
 }
@@ -164,5 +167,32 @@ h1,h2,h3,h4,h5,h6,a,span{
     font-size: 1.5rem;
     color: var(--white-color);
 }
+
+/*  big -offer section sss start */
+.big-wraper{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.big-offer-img img{
+    width: 100%;
+}
+.big-offer-content{
+    background-color: var(--black-color);
+}
+.big-offer-content h6{
+    margin-left: 10px;
+    color: var(--orange-color);
+}
+.big-offer-content h1{
+    margin-left: 10px;
+    color: var(--white-color);
+}
+.big-offer-content i{
+    margin-left: 10px;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+/*  big -offer section sss end  */
 /* WHAT WE CAN OFFER  css end  */
 

@@ -48,14 +48,34 @@
     grid-gap: 2rem;
 }
 .offer-content{
+    height: 20vh;
     padding: 25px 0;
     text-align: center;
 }
   }
  /* WHAT WE CAN OFFER  modile css end   */
 
-
-
+/*  big -offer section mobile  sss start */
+ @media only screen and (max-width: 480px) {
+  .big-wraper{
+    display: flex;
+    grid-template-columns: 1fr ;
+    grid-gap: 1rem;
+}
+.big-offer-img img{
+    width: 100%;
+}
+.big-offer-content{
+  text-align: center;
+}
+.big-offer-content h1{
+   font-size: 15px;
+}
+.big-offer-content i{
+    font-size: 1rem;
+}
+ }
+/*  big -offer section mobile  css end  */
 
 
 
