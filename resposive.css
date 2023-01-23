@@ -40,4 +40,23 @@
   }
   /*  why-chose us mobile  css end  */
 
+  /* /* WHAT WE CAN OFFER  modile css start  */
+  @media only screen and (max-width: 480px) {
+
+.offer-wraper{
+    grid-template-columns:1fr;
+    grid-gap: 2rem;
+}
+.offer-content{
+    padding: 25px 0;
+    text-align: center;
+}
+  }
+ /* WHAT WE CAN OFFER  modile css end   */
+
+
+
+
+
+
 /*  mediya wuarry csss end */
