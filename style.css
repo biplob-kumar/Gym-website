@@ -240,4 +240,65 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--black-color);
 }
 /*  apmointment section css end */
+/*  pricing-table css start */
+.pricing-table{
+  
+    background-color: var(--shado-color);
+}
+.pricing-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    grid-gap: 2rem;
+    
+}
+.card-content{
+    margin-top:  4rem;
+    justify-content: center;
+    align-self: center;
+}
+.card-content h4{
+    color: var(--white-color);
+    margin-bottom:1.5rem;
+}
+.card-content h1{
+    color: var(--orange-color);
+    font-size: 3rem;
+    margin-bottom:1.5rem;
+}
+.card-content h6{
+    text-align: center;
+    color: var(--white-secundary);
+}
+.card-content p{
+    text-align: center;
+    color: var(--white-color);
+}
+.card button{
 
+    text-align: center;
+    color: var(--white-color);
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 50px ;
+    background-color: var(--orange-color);
+    transition: .4s ease-in-out;
+}
+.card button:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+}
+.card{
+    width: 100%;
+    background-color: var(--shado-color);
+    border: 0.1px solid #ddd;
+    height: 100vh;
+
+}
+.card:hover{
+
+
+   
+}
+/*  pricing-table css end  */

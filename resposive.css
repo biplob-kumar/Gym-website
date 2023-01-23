@@ -102,8 +102,31 @@ font-size: 10px;
 
 /*  apmointment section css end */
 
+@media only screen and (max-width: 480px) {
+  .pricing-wraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    grid-gap: 1rem;
+}
+.card-content{
+  margin-top:  4rem;
+  justify-content: center;
+  align-self: center;
+}
+.card-content h4{
+  color: var(--white-color);
+  margin-bottom:1.5rem;
+}
+.card-content h1{
+  font-size: 1.7rem;
+}
 
+.card{
+  width: 100%;
+  height: 50vh;
 
-
-
+}
+}
 /*  mediya wuarry csss end */
+
