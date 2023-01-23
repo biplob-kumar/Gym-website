@@ -1,0 +1,128 @@
+/*  google front start */
+  @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+  /*  google gronyt end  */
+
+  /* Default css start */
+:root{
+     --orange-color:#f36100;
+     --white-color:#ffffff;
+     --white-secundary:#a9a9a9;
+     --black-color:#0a0a0a;
+     --shado-color:#151515;
+    
+}
+h1,h2,h3,h4,h5,h6,a,span{
+    font-family: 'Unbounded', cursive;
+}
+
+  /* Default css end  */
+  /*  comon css start */
+  .comon-header{
+    text-align: center;
+  }
+  .comon-header h5{
+    color: var(--orange-color);
+    margin-bottom: 20px;
+  }
+  .comon-header h2{
+    color: var(--white-color);
+  }
+  /*  comon css end */
+
+/*  nav css start */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    font-size: 14px;
+}
+.social i{
+    font-size: 1rem;
+    color: var(--orange-color);
+    background-color: #f36100;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+/*  nav css end  */
+/*  hero css start */
+.hero-section{
+ background: url(./img/hero-1.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
+ background-attachment: fixed;
+}
+.hero-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    
+}
+.hero-content{
+    align-self: center;
+    color: var(--white-color);
+}
+.hero-content h5{
+    letter-spacing: 10px;
+}
+.hero-content h1{
+    font-size: 4.5rem;
+}
+.hero-content h1 strong{
+    color: var(--orange-color);
+}
+.hero-content a{
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px ;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-weight: 500;
+    transition: .4s;
+}
+.hero-content a:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+/*  hero css end  */
+/*  why-chose us css start */
+.why-scgose-sectio{
+    background-color: var(--black-color);
+}
+.why-chose-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+}
+.why-chose-content{
+    text-align: center;
+}
+.why-chose-content h4{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--white-color);
+}
+.why-chose-content p{
+    color: var(--white-secundary);
+}
+.chose-icon i {
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--shado-color);
+    color: var(--orange-color);
+     width: 80px;
+     height: 80px;
+     line-height: 80px;
+     border-radius: 50%;
+     margin-bottom: 10px;
+     transition: .4s ease-in-out;
+}
+.chose-icon i:hover{
+    color: var(--white-color);
+    background-color:var(--orange-color) ;
+}
+/*  why-chose us css end  */
+

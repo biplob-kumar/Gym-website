@@ -1,0 +1,43 @@
+
+/*  mediya wuarry csss start*/
+
+@media only screen and (max-width: 480px) {
+   /*  hero css start */
+.hero-section{
+    width: 100%;
+    height: 50vh;
+   }
+   .hero-wraper{
+       grid-template-columns:  1fr;
+   }
+   .hero-content{
+    text-align: center;
+   }
+   .hero-content h5{
+       letter-spacing:5px;
+   }
+   .hero-content h1{
+       font-size: 2rem;
+   }
+   
+  }
+  /*  hero css end  */
+/*  why-chose  mobile css  start */
+  @media only screen and (max-width: 480px) {
+    
+
+.why-chose-wraper{
+    grid-template-columns:1fr;
+
+}
+
+  .comon-header h5{
+    font-size: 14px;
+  }
+  .comon-header h2{
+    font-size: 1rem;
+  }
+  }
+  /*  why-chose us mobile  css end  */
+
+/*  mediya wuarry csss end */
