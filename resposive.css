@@ -77,6 +77,33 @@
  }
 /*  big -offer section mobile  css end  */
 
+@media only screen and (max-width: 480px) {
+/*  apmointment section css start */
+.Appointment-section{
+  width: 100%;
+  height:100vh;
+
+}
+.apmointment-wraper{
+  display: grid;
+  height: 100%;
+}
+
+.apoinment-content h1{
+  font-size: 1rem;
+}
+.apoinment-content h6{
+font-size: 10px;
+}
+.apoinment-content a{
+  padding: 10px 15px;
+}
+}
+
+/*  apmointment section css end */
+
+
+
 
 
 /*  mediya wuarry csss end */
