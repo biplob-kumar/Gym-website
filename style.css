@@ -183,9 +183,11 @@ h1,h2,h3,h4,h5,h6,a,span{
     grid-gap: 2rem;
 }
 .big-offer-img img{
+    text-align: center;
     width: 100%;
 }
 .big-offer-content{
+   
     background-color: var(--black-color);
 }
 .big-offer-content h6{
@@ -286,7 +288,7 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--white-color);
 }
 .card button{
-
+    font-weight: 700;
     text-align: center;
     color: var(--white-color);
     display: inline-block;
@@ -298,20 +300,21 @@ h1,h2,h3,h4,h5,h6,a,span{
 .card button:hover{
     background-color: var(--white-color);
     color: var(--black-color);
-    font-weight: 700;
+   
 }
 .card{
 
     clip-path: polygon(0 13%, 100% 0, 100% 92%, 0 100%, 0 100%);
     background-color: var(--black-color);
     border: 0.1px solid rgb(175, 70, 70);
-    height: 100vh;
+    width: 100%;
+    height: 110%;
+    transition: .4s ease-in-out;
 
 }
 .card:hover{
-
-
-   
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   background-color: var(--white-secundary);
 }
 /*  pricing-table css end  */
 
@@ -324,7 +327,6 @@ h1,h2,h3,h4,h5,h6,a,span{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1rem;
-    
 }
 .team-img{
     background-color: var(--orange-color);
@@ -353,9 +355,7 @@ h1,h2,h3,h4,h5,h6,a,span{
 display: grid;
 grid-template-columns: 1fr 1fr;
 }
-.contact-form {}
 .contact-form input {
-
     border: none;
     background-color: var(--white-color);
     outline: none;
