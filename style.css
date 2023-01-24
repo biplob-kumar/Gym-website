@@ -242,6 +242,9 @@ h1,h2,h3,h4,h5,h6,a,span{
 /*  apmointment section css end */
 /*  pricing-table css start */
 .pricing-table{
+    padding: 100px 0;
+}
+.pricing-table{
   
     background-color: var(--shado-color);
 }
