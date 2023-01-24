@@ -74,9 +74,11 @@ h1,h2,h3,h4,h5,h6,a,span{
 }
 .hero-content h5{
     letter-spacing: 10px;
+    margin-bottom: 1.6rem;
 }
 .hero-content h1{
     font-size: 4.5rem;
+    margin-bottom: 2rem;
 }
 .hero-content h1 strong{
     color: var(--orange-color);
@@ -233,21 +235,19 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--white-secundary);
 }
 .apoinment-content a{
-     margin-top: 1rem;
     color: var(--white-color);
+     margin-top: 1rem;
     display: inline-block;
     padding: 15px 20px;
-    background-color: var(--white-color);
+    background-color: var(--orange-color);
     text-decoration: none;
-    border: 2px solid #f36100;
-    color: var(--black-color);
     font-weight: 500;
     transition: .4s ease-in-out;
-
 }
 .apoinment-content a:hover{
-    background-color: var(--orange-color);
+    background-color: var(--white-color);
     color: var(--black-color);
+
 }
 /*  apmointment section css end */
 /*  pricing-table css start */
@@ -421,3 +421,71 @@ grid-template-columns: 1fr 1fr;
 }
 
 /*  contact-css end  */
+
+
+/*  news-latter css start  */
+
+.foter-section-similar{
+    background: url(./img/gallery-6.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-attachment: fixed;
+   
+}
+.news-latter{
+    display: grid;
+    grid-template: 1fr ;
+}
+
+.news-letter-content h1{
+    font-weight: 700;
+}
+.news-letter-content .btn{
+    padding: 22px 30px ;
+    background-color: var(--orange-color);
+    border: none;
+    color: var(--white-color);
+}
+.news-letter-content input{
+    padding: 20px 30px ;
+}
+/* news-latter css end  */
+
+/*  footer-section css  start */
+.footer-main{
+    background-color: var(--black-color);
+    height: 100%;
+    
+   
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5rem;
+ 
+}
+.footer-content{
+    justify-self: center;
+}
+.footer-content{}
+.footer-content h4{
+    color: var(--orange-color);
+}
+
+.footer-content p{
+    line-height: 1.8rem;
+    color: var(--white-color);
+}
+.footer-content i{
+    color: var(--white-color);
+}
+.contact-icon  i {
+    color: var(--orange-color);
+    
+}
+hr{
+    color: var(--orange-color);
+}
+/*  footer-section  css end  */
+

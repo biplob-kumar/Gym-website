@@ -218,3 +218,25 @@ grid-gap: 2rem;
 /*  contact-mobile css end  */
 /*  mediya wuarry csss end */
 
+/*  footer mobile css strart */
+
+@media only screen and (max-width: 480px) {
+  .footer-main{
+    background-color: var(--black-color);
+    height: 100%;
+}
+.footer-wraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem
+ 
+}
+.footer-content{
+  text-align: center;
+}
+.footer-content p{
+    line-height: 1.2rem;
+}
+}
+/*  footer mobile css end  */
+
