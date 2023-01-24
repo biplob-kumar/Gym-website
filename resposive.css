@@ -155,18 +155,25 @@ grid-template-columns: 1fr;
 grid-gap: 2rem;
 }
 .contact-form input {
+  width: 100%;
     margin: 10px 0;
-    padding: 30px 90px ;
+    padding: 30px 70px ;
     display: block;
 } 
 .contact-form textarea{
-  padding: 0px 103px ;
+  width: 100%;
+  height: 200px;
+  padding: 0px 85px ;
   display: block;
 }
 .contact-form a{
     padding: 10px 30px;
 }
+.map img{
 
+  width: 100%;
+  height: 300px;
+}
 }
 /*  contact-mobile css end  */
 /*  mediya wuarry csss end */
