@@ -30,8 +30,11 @@ h1,h2,h3,h4,h5,h6,a,span{
   /*  comon css end */
 
 /*  nav css start */
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light{
     font-size: 14px;
+}
+.nav-link:hover{
+    background-color: var(--orange-color);
 }
 .social i{
     font-size: 1rem;
@@ -42,6 +45,11 @@ h1,h2,h3,h4,h5,h6,a,span{
     line-height: 40px;
     border-radius: 50%;
     text-align: center;
+    transition: .4s ease-in-out;
+}
+.social i:hover{
+     color: red;
+    background-color: var(--black-color);
 }
 /*  nav css end  */
 /*  hero css start */
@@ -334,3 +342,39 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--white-secundary);
 }
 /*  team-css end  */
+
+/*  contact-css start */
+
+.contact-section{
+    background-color: var(--black-color);
+    padding: 100px 0;
+}
+.contact-wrapaer{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.contact-form {}
+.contact-form input {
+
+    border: none;
+    background-color: var(--white-color);
+    outline: none;
+    margin: 10px 0;
+    padding: 20px 150px ;
+    display: block;
+} 
+.contact-form textarea{
+    padding: 0px 158px ;
+    background-color: var(--white-color);
+    display: block;
+}
+.contact-form a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px ;
+    background-color: var(--orange-color);
+    margin: 10px 0;
+    color: var(--white-color);
+}
+/*  contact-css end  */
