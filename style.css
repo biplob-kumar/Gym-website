@@ -293,9 +293,10 @@ h1,h2,h3,h4,h5,h6,a,span{
     font-weight: 700;
 }
 .card{
-    width: 100%;
-    background-color: var(--shado-color);
-    border: 0.1px solid #ddd;
+
+    clip-path: polygon(0 13%, 100% 0, 100% 92%, 0 100%, 0 100%);
+    background-color: var(--black-color);
+    border: 0.1px solid rgb(175, 70, 70);
     height: 100vh;
 
 }
