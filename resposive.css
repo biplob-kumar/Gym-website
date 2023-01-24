@@ -130,6 +130,51 @@ font-size: 10px;
 }
 }
 /*  pricing-table mobile css end  */
+
+ /*  grid-gallary  mediya quarry css start   */
+
+ @media only screen and (max-width:1024px) {
+  .container-wraper{
+      grid-template: "1fr 1fr 1fr " 250px
+                     "1fr 1fr 1fr " 250px
+                     "1fr 1fr 1fr " 250px
+                     "1fr 1fr 1fr " 250px
+                     "1fr 1fr 1fr " 250px;
+                  
+                    
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container-wraper{
+      grid-template: "1fr 1fr " 200px
+                     "1fr 1fr " 200px
+                     "1fr 1fr " 200px
+                     "1fr 1fr " 200px
+                     "1fr 1fr " 200px
+                     "1fr 1fr " 200px
+                     "1fr 1fr " 200px;               
+  }
+.j{
+      grid-column: span 1;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container-wraper{
+      grid-template: "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  " 150px
+                     "1fr  "    150px
+                     "1fr  " 150px;                 
+  }
+  .j{
+      grid-column: span 1;
+  }
+}
+/*  grid-gallary  mediya wuary css end    */
+
+
 /*  team-css mobile start */
 
 /*  team  mobile css start */
@@ -168,11 +213,6 @@ grid-gap: 2rem;
 }
 .contact-form a{
     padding: 10px 30px;
-}
-.map img{
-
-  width: 100%;
-  height: 300px;
 }
 }
 /*  contact-mobile css end  */

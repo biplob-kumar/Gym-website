@@ -321,6 +321,7 @@ h1,h2,h3,h4,h5,h6,a,span{
 /*  team-css start */
 
 .team-secion{
+    padding: 100px 0;
     background-color: var(--shado-color);
 }
 .team-wraper{
@@ -344,6 +345,47 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--white-secundary);
 }
 /*  team-css end  */
+
+
+/*  grid-gallary css start */
+.grid-gallary{
+  
+    background-color: var(--shado-color);
+}
+
+.container-wraper{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;
+                
+                  
+}
+.box{
+    background-color: #ccc;
+    position: relative;
+}
+.box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 
+.a{
+grid-row: span 2;
+}
+ .b ,.f,.h,.j{
+    grid-column: span 2;
+ }
+
+
+/*  grid-gallary css end */
+
 
 /*  contact-css start */
 
@@ -377,10 +419,5 @@ grid-template-columns: 1fr 1fr;
     margin: 10px 0;
     color: var(--white-color);
 }
-.map img{
-    
-    border: 1px solid orangered ;
-    width: 100%;
-    height: 400px;
-}
+
 /*  contact-css end  */
