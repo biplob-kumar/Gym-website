@@ -148,39 +148,25 @@ font-size: 10px;
 /*  team mobile css end  */
 /*  contact mobile css start */
 @media only screen and (max-width: 480px) {
-  .contact-section{
-    background-color: var(--black-color);
-    padding: 100px 0;
-}
+
 .contact-wrapaer{
 display: grid;
 grid-template-columns: 1fr;
 grid-gap: 2rem;
 }
-.contact-form {}
 .contact-form input {
-
-    border: none;
-    background-color: var(--white-color);
-    outline: none;
     margin: 10px 0;
     padding: 30px 90px ;
     display: block;
 } 
 .contact-form textarea{
   padding: 0px 103px ;
-    background-color: var(--white-color);
-     display: block;
+  display: block;
 }
 .contact-form a{
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    padding: 10px 20px ;
-    background-color: var(--orange-color);
-    margin: 10px 0;
-    color: var(--white-color);
+    padding: 10px 30px;
 }
+
 }
 /*  contact-mobile css end  */
 /*  mediya wuarry csss end */

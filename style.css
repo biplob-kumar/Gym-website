@@ -371,7 +371,7 @@ grid-template-columns: 1fr 1fr;
 .contact-form a{
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:inline-block;
     padding: 10px 20px ;
     background-color: var(--orange-color);
     margin: 10px 0;
