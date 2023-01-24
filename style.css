@@ -306,3 +306,31 @@ h1,h2,h3,h4,h5,h6,a,span{
    
 }
 /*  pricing-table css end  */
+
+/*  team-css start */
+
+.team-secion{
+    background-color: var(--shado-color);
+}
+.team-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+    
+}
+.team-img{
+    background-color: var(--orange-color);
+}
+.team-img img{
+    width: 100%;
+    height: auto;
+}
+.team-content h4{
+    font-weight: 500;
+}
+.team-content p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--white-secundary);
+}
+/*  team-css end  */
