@@ -105,7 +105,7 @@ MANU MOBILE CSS END  */
   text-align: center;
 }
 .big-offer-content h1{
-   font-size: 15px;
+  font-size: 15px;
 }
 .big-offer-content i{
     font-size: 1rem;
@@ -117,7 +117,7 @@ MANU MOBILE CSS END  */
 /*  apmointment section css start */
 .Appointment-section{
   width: 100%;
-  height:100vh;
+  height: 40vh;
 
 }
 .apmointment-wraper{
@@ -171,24 +171,24 @@ font-size: 10px;
 
  @media only screen and (max-width:1024px) {
   .container-wraper{
-      grid-template: "1fr 1fr 1fr " 250px
-                     "1fr 1fr 1fr " 250px
-                     "1fr 1fr 1fr " 250px
-                     "1fr 1fr 1fr " 250px
-                     "1fr 1fr 1fr " 250px;
+  grid-template: "1fr 1fr 1fr "250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px
+                "1fr 1fr 1fr " 250px;
                   
                     
   }
 }
 @media only screen and (max-width: 768px) {
   .container-wraper{
-      grid-template: "1fr 1fr " 200px
-                     "1fr 1fr " 200px
-                     "1fr 1fr " 200px
-                     "1fr 1fr " 200px
-                     "1fr 1fr " 200px
-                     "1fr 1fr " 200px
-                     "1fr 1fr " 200px;               
+  grid-template: "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px
+                  "1fr 1fr " 200px;               
   }
 .j{
       grid-column: span 1;
@@ -201,7 +201,7 @@ font-size: 10px;
                      "1fr  " 150px
                      "1fr  " 150px
                      "1fr  " 150px
-                     "1fr  "    150px
+                     "1fr  " 150px
                      "1fr  " 150px;                 
   }
   .j{
@@ -209,7 +209,6 @@ font-size: 10px;
   }
 }
 /*  grid-gallary  mediya wuary css end    */
-
 
 /*  team-css mobile start */
 
@@ -225,7 +224,6 @@ font-size: 10px;
     font-size: 1rem;
 }
 }
-
 /*  team mobile css end  */
 /*  contact mobile css start */
 @media only screen and (max-width: 480px) {

@@ -143,6 +143,15 @@ h1,h2,h3,h4,h5,h6,a,span{
 .manu-section {
     background-color: var(--shado-color);
 }
+.manu-wraper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
+    height: 100%;
+}
+.manu-left{
+    align-self: center;
+}
 .manu-left h4{
     color: var(--white-color);
 }
@@ -157,23 +166,13 @@ h1,h2,h3,h4,h5,h6,a,span{
     color: var(--white-color);
     font-weight: 700;
 }
-.manu-wraper{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 2rem;
-}
+
 .manu-right-img img{
     border-radius: 0 10px 20px 0;
     width: 300px;
     height: 100%;
 }
-
 /*  manu css end  */
-
-
-
-
-
 
 /* WHAT WE CAN OFFER  css start */
 .class-offer-section{
@@ -228,7 +227,7 @@ h1,h2,h3,h4,h5,h6,a,span{
     width: 100%;
 }
 .big-offer-content{
-   
+    
     background-color: var(--black-color);
 }
 .big-offer-content h6{
@@ -249,10 +248,12 @@ h1,h2,h3,h4,h5,h6,a,span{
 
 /*  apmointment section css start */
 .Appointment-section{
-    background: url(./img/gallery-1.jpg) no-repeat center;
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./img/meghan-holmes-buWcS7G1_28-unsplash.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-attachment: fixed;
 }
 .apmointment-wraper{
@@ -358,7 +359,6 @@ h1,h2,h3,h4,h5,h6,a,span{
 /*  pricing-table css end  */
 
 /*  team-css start */
-
 .team-secion{
     padding: 100px 0;
     background-color: var(--shado-color);
@@ -385,7 +385,6 @@ h1,h2,h3,h4,h5,h6,a,span{
 }
 /*  team-css end  */
 
-
 /*  grid-gallary css start */
 .grid-gallary{
   
@@ -398,9 +397,7 @@ h1,h2,h3,h4,h5,h6,a,span{
     grid-auto-flow: dense;
     grid-template: "1fr 1fr 1fr 1fr 1fr" 33.33vh
                    "1fr 1fr 1fr 1fr 1fr" 33.33vh
-                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;
-                
-                  
+                   "1fr 1fr 1fr 1fr 1fr" 33.33vh;               
 }
 .box{
     background-color: #ccc;
@@ -414,17 +411,13 @@ h1,h2,h3,h4,h5,h6,a,span{
     width: 100%;
     object-fit: cover;
 }
- 
 .a{
 grid-row: span 2;
 }
  .b ,.f,.h,.j{
     grid-column: span 2;
  }
-
-
 /*  grid-gallary css end */
-
 
 /*  contact-css start */
 
@@ -465,25 +458,23 @@ grid-template-columns: 1fr 1fr;
 /*  news-latter css start  */
 
 .foter-section-similar{
-    background: url(./img/gallery-6.jpg) no-repeat center;
+    background-image:linear-gradient(to right, rgba(21, 21, 22, 0.7), rgba(21, 21, 22, 0.7)) ,url('./img/gallery-6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-  height: 70vh;
+    height: 100%;
     background-attachment: fixed;
-   
 }
 .news-latter{
     display: grid;
     grid-template: 1fr ;
-    height: 100%;
-   
+    width: 100%;
+    height: 60vh;
 }
 .news-letter-content {
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
+    align-self: center;
 }
-
 .news-letter-content h1{
     font-weight: 700;
 }
@@ -494,7 +485,7 @@ grid-template-columns: 1fr 1fr;
     color: var(--white-color);
 }
 .news-letter-content input{
-    padding: 20px 30px ;
+    padding: 10px 30px ;
 }
 /* news-latter css end  */
 
