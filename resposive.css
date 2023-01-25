@@ -38,7 +38,43 @@
     font-size: 1rem;
   }
   }
+
   /*  why-chose us mobile  css end  */
+
+/* MANU MOBILE CSS START */
+  @media only screen and (max-width: 480px) {
+    .manu-section {
+      background-color: var(--shado-color);
+  }
+  .manu-left h3{
+    font-size: 1rem;
+  }
+  .manu-left p{
+    font-size: 13px;
+     line-height: 16px;
+  }
+  .manu-header h5{
+    font-size: 1rem;
+  }
+  .manu-header h2{
+    font-size: 1.3rem;
+  }
+  .manu-wraper{
+      display: grid;
+      grid-template-columns:  1fr;
+      grid-gap: 2rem;
+  }
+  .manu-right-img img{
+      width: 100%;
+      height: 100%;
+  }
+  }
+/* 
+MANU MOBILE CSS END  */
+
+
+
+
 
   /* /* WHAT WE CAN OFFER  modile css start  */
   @media only screen and (max-width: 480px) {
